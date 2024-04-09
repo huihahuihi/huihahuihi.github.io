@@ -1,0 +1,146 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+  #allPostsButton {
+    /* Your styles here */
+    cursor: pointer;
+    /* text-align: center; */
+    /* padding: 50% 50wh; Example padding */
+    /* Other styles as needed */
+}
+
+
+  .remove_link{
+    text-decoration: none;
+  }
+
+  body, html {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 21.5%;
+  }
+  
+  .header .left-header h1 {
+    text-align: left;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  
+  nav a, nav div {
+    margin-right: 22px; /* Adjust spacing between nav items */
+  }
+  
+  #dark-mode-toggle img {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+  }
+  
+  /* Horizontal rule styles */
+  hr {
+    
+        width: 60%; 
+        margin-left: 21.5%; 
+        margin-right: auto; 
+        
+        height: 0.5px;
+        
+        background-color: #ccc;
+        
+      }
+  
+  
+  /* About me and social links styles */
+  .about-social-container p,
+  .about-social-container div {
+    text-align: left;
+    padding-left: 21.5%; /* Align with the header */
+  }
+  
+  #social-links {
+    padding-left: 21.5%; /* Align with the header */
+  }
+  
+  #social-links a {
+    margin-right: 21.5px; /* Adjust spacing between social links */
+  }
+  
+  /* Main content styles */
+  main {
+    padding-left: 21.5%; /* Align with the header */
+  }
+  
+  #recent-posts article {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  #recent-posts h2 a {
+    color: #1e90ff;
+    font-size: 1.0em;
+    text-decoration: none;
+    display: block; /* Make the links full width */
+  }
+  
+  #recent-posts p {
+    color: #666;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: left;
+    padding: 20px 10%;
+  }
+  
+  /* Add any additional styles or overrides here */
+  
+  /* Dark mode styles can remain unchanged */
+  
+  
+  /* Dark mode styles */
+  body.dark-mode {
+    background-color: #222736;
+    color: white;
+  }
+  
+  body.dark-mode header,
+  body.dark-mode footer {
+    background-color: #222;
+  }
+  
+  body.dark-mode nav a,
+  body.dark-mode #social-links a,
+  body.dark-mode footer {
+    color: #ddd;
+  }
+  
+  body.dark-mode hr {
+    background-color: #444;
+  }
+  
+  body.dark-mode #recent-posts h2 a {
+    color: #add8e6;
+  }
+  
+  /* Add any additional styles or overrides here */
+  

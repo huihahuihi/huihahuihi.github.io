@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Posts</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body style="text-align: center;">
+    <div class="header">
+        <div class="left-header">
+            <h2><a href="index.html">Prem Kumar</a></h2>
+
+        </div>
+        <nav>
+            <a class="remove_link"  href="pages.html"> Posts</a>
+            <a class="remove_link"  href="#">Tags</a>
+            <div id="dark-mode-toggle">
+                <img src="day1.png" alt="Light Mode" id="light-mode-icon" style="display: none;">
+                <img src="night1.png" alt="Dark Mode" id="dark-mode-icon">
+            </div>
+        </nav>
+      </div>
+      
+    
+    <hr>
+<br>
+<br>
+</head>
+<body>
+    <article>
+        <h1>lmao again</h1>
+        <br>
+        <p>Published on March 19, 2024</p>
+        <section id="essay-content">
+            <video id="myVideo" width="560" height="320" controls autoplay muted>
+                <source src="Rick Astley - Never Gonna Give You Up (Official Music Video).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              
+              <script>
+                // Get the video element
+                var video = document.getElementById('myVideo');
+              
+                // Try to play the video with sound as soon as it's ready to play
+                video.addEventListener('canplaythrough', function() {
+                    // Once the video can play through, set the muted property to false
+                    video.muted = false;
+                    
+                    // Play the video
+                    video.play()
+                    .catch(error => {
+                        console.error("Auto-play with sound was prevented.", error);
+                        // Auto-play was prevented with sound
+                        // Show a UI element to let the user manually start playback
+                    });
+                });
+              </script>
+              
+              
+            <!-- <p>
+                Backpacking through Europe is an adventure that offers an array of experiences, cultures, and landscapes. 
+                (Here, you will insert the rest of your 500-word essay on backpacking through Europe.)
+            </p> -->
+            <!-- The full essay content will go here -->
+        </section>
+        <br>
+        <a href="index.html">Back to home page</a>
+    </article>
+</body>
+</html>
